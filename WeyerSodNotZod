@@ -75,7 +75,7 @@ public class WeyerMainClass
 			//assignment statements for itemSelection
 			itemSelection = validateItemMenu(input);
 			
-			//End of Main Menu validation
+			//Start run-while loop for itemSelection
 			while (itemSelection != 'R')
 			{
 				//assignment statements for howMany
@@ -145,7 +145,7 @@ public class WeyerMainClass
 				//Modify the LCV
 				itemSelection = validateItemMenu(input);
 				
-			}//End of Main Menu validation
+			}//End of itemSelection run-while loop
 			
 			//Processes
 			tax = subTotal * TAX_RATE;
